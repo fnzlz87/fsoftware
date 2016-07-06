@@ -19,6 +19,7 @@ public class activity_20160524_01_activity extends AppCompatActivity {
         glView.setRenderer(new MyGLRenderer(this));
         this.setContentView(glView);
         //우루후훕676878
+        //나의이름은 임행운이라고합니다
 
     }
 }
