@@ -18,7 +18,7 @@ public class activity_20160524_01_activity extends AppCompatActivity {
         glView = new GLSurfaceView(this);
         glView.setRenderer(new MyGLRenderer(this));
         this.setContentView(glView);
-        //우루후훕
+        //우루후훕676878
 
     }
 }
