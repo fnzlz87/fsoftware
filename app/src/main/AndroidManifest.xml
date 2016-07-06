@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fnzlz.android_project_sample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/fnzlz_01"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sample_activity.sample_20160504_01_activity" />
+        <activity android:name=".sample_activity.sample_20160507_01_activity" />
+        <activity android:name=".sample_activity.sample_20160507_02_activity" />
+        <activity android:name=".sample_activity.sample_201605087_01_activity" />
+        <activity android:name=".sample_activity.sample_20160508_01_activity" />
+        <activity android:name=".sample_activity.sample_20160524_01_activity" />
+        <activity android:name=".sample_opengl.sample_opengl_20160524_01" />
+        <activity android:name=".sample_opengl.opengl_20160504_01.mainActivity" />
+        <activity android:name=".sample_opengl.opengl_20160504_01.activity_20160524_01_activity"></activity>
+    </application>
+
+</manifest>
